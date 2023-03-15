@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.page-header {
+    display: grid;
+    width: 100%;
+    background-color: #f2e6ef;
+    grid-template-columns: 7fr 1fr;
+}
+.page-main{
+}
+
+.days-list{
+    display: grid;
+    width: 50%;
+    margin: 25px auto 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    list-style: none;
+}
+.day{
+    border: 1px solid rgb(225, 225, 225);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fcf5fa;
+}
